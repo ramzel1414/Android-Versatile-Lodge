@@ -1,0 +1,96 @@
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/versatile">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Admin Login"
+        android:textColor="#FFF"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="380dp"
+        android:layout_centerInParent="true"
+        android:background="#80FFFFFF"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_corner"
+            android:drawableLeft="@drawable/baseline_account_circle_24"
+            android:drawablePadding="10dp"
+            android:hint="Username"
+            android:padding="15dp"
+            android:textColor="#000"
+            android:textColorHint="#808080" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login"
+            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_corner"
+            android:drawableLeft="@drawable/baseline_admin_panel_settings_24"
+            android:drawablePadding="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="#000"
+            android:textColorHint="#808080" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/loginbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:backgroundTint="#2B1103"
+            android:padding="15dp"
+            android:text="LOGIN" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginbtn"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:text="or login with" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/googlebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:backgroundTint="#2B1103"
+            android:padding="15dp"
+            android:text="GOOGLE" />
+
+    </LinearLayout>
+</RelativeLayout>

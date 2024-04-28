@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.VersatileLodge" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+        <item name="android:statusBarColor">@color/main</item>
+
+
+    </style>
+</resources>
