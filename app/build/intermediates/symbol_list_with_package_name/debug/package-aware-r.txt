@@ -2097,6 +2097,7 @@ color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color ripple_material_dark
 color ripple_material_light
+color secondary
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -3001,6 +3002,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable charmee
+drawable circle_background
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -3197,8 +3199,16 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addButton
+id add_image_button
+id add_room_capacity
+id add_room_image
+id add_room_name
+id add_room_number
+id add_room_price
 id adjust_height
 id adjust_width
+id adminUser
 id alertTitle
 id aligned
 id all
@@ -3215,6 +3225,10 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id backAddButton
+id backBookButton
+id backDeleteButton
+id backEditButton
 id barrier
 id baseFrag
 id baseline
@@ -3222,6 +3236,7 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id bookButton
 id bookImage
 id bookImage2
 id bookInfo
@@ -3279,7 +3294,6 @@ id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
 id deleteButton
-id deleteButton2
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -3312,6 +3326,10 @@ id edge
 id editButton
 id editButton2
 id edit_query
+id edit_room_capacity
+id edit_room_name
+id edit_room_number
+id edit_room_price
 id elastic
 id email
 id embed
@@ -3507,8 +3525,8 @@ id position
 id postLayout
 id pressed
 id profile
-id profileImage
 id profileInfo
+id profile_image
 id progress_circular
 id progress_horizontal
 id radio
@@ -3521,13 +3539,11 @@ id rightToLeft
 id right_icon
 id right_side
 id roomImage
-id roomImage2
 id roomInfo
-id roomInfo2
 id roomInfoBtns
-id roomInfoBtns2
 id rounded
 id row_index_key
+id saveButton
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3781,7 +3797,10 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_second
+layout add_room_modal
+layout book_room_modal
 layout custom_dialog
+layout delete_room_modal
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -3797,6 +3816,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout edit_room_modal
 layout fragment_fragment1
 layout fragment_fragment2
 layout fragment_fragment3

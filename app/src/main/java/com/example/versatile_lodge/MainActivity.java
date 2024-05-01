@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
             navigateToSecondActivity();
         }
 
+//      google login
         googleBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,26 +47,25 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+//      manual login
+        TextView username = (TextView) findViewById(R.id.username);
+        TextView password = (TextView) findViewById(R.id.password);
 
-//        TextView username = (TextView) findViewById(R.id.username);
-//        TextView password = (TextView) findViewById(R.id.password);
-//
-//        MaterialButton loginBtn = (MaterialButton) findViewById(R.id.loginbtn);
-//
-//
-//
-//        //admin and admin
-//
-//        loginBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")) {
-//                    Toast.makeText(MainActivity.this,"LOGIN SUCCESSFUL", Toast.LENGTH_SHORT).show();
-//                } else {
-//                    Toast.makeText(MainActivity.this,"LOGIN FAILED", Toast.LENGTH_SHORT).show();
-//                }
-//            }
-//        });
+        MaterialButton loginBtn = (MaterialButton) findViewById(R.id.loginbtn);
+
+        //admin and admin
+
+        loginBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")) {
+                    Toast.makeText(MainActivity.this,"successfully signed in", Toast.LENGTH_SHORT).show();
+                    navigateToSecondActivity();
+                } else {
+                    Toast.makeText(MainActivity.this,"username & password: admin", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
     }
 
     void signIn() {
@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
 
             try {
                 task.getResult(ApiException.class);
+                Toast.makeText(MainActivity.this,"successfully signed in", Toast.LENGTH_SHORT).show();
                 navigateToSecondActivity();
             } catch (ApiException e) {
                 Toast.makeText(getApplicationContext(),"something went wrong", Toast.LENGTH_SHORT).show();

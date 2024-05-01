@@ -26,7 +26,6 @@ public class SecondActivity extends AppCompatActivity {
 
     GoogleSignInOptions gso;
     GoogleSignInClient gsc;
-    TextView name, email;
     ImageView signOutBtn;
 
     private BottomNavigationView bottonNav;

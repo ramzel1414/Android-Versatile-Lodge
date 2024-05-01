@@ -47,21 +47,18 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
+                android:background="@drawable/circle_background"
 >
-                <ImageView
-                    android:id="@+id/profileImage"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/charmee"
-                    android:layout_marginEnd="16dp"
-                    android:scaleType="fitXY"/>
 
-                <TextView
-                    android:textColor="@android:color/black"
-                    android:layout_width="wrap_content"
+                <ImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Admin User"
-                    android:textSize="18sp"/>
+                    android:src="@drawable/charmee"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/circle_background"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -72,9 +69,20 @@
                 android:layout_marginVertical="16dp"
                 android:orientation="vertical"
                 android:textColor="@android:color/black">
-
+                <TextView
+                    android:id="@+id/adminUser"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ADMIN USER"
+                    android:textSize="18sp"/>
                 <TextView
                     android:id="@+id/name"
+                    android:layout_below="@id/adminUser"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Name"
@@ -84,6 +92,7 @@
                 <TextView
                     android:id="@+id/email"
                     android:layout_below="@id/name"
+                    android:layout_gravity="center"
                     android:layout_marginTop="6dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

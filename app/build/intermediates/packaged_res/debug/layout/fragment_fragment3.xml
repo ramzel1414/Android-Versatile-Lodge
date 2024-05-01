@@ -42,6 +42,7 @@
             android:layout_marginBottom="8dp">
 
             <Button
+                android:id="@+id/bookButton"
                 android:layout_width="174dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -49,7 +50,8 @@
                 android:padding="8dp"
                 android:text="Book a Room +"
                 android:textColor="@android:color/white"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:onClick="showBookRoomModal"/>
 
         </LinearLayout>
 

@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Add Room Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Room"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+    <!-- Room Image Input Field -->
+    <ImageView
+        android:id="@+id/add_room_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/room"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="16dp"/>
+    <!-- Add Image Button -->
+    <Button
+        android:id="@+id/add_image_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Image"
+        android:backgroundTint="@color/branch"
+        android:textColor="@android:color/black"/>
+
+    <!-- Room Name Input Field -->
+    <EditText
+        android:id="@+id/add_room_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room Name"
+        android:textColorHint="@android:color/darker_gray"
+        android:padding="12dp"
+        android:inputType="text"/>
+
+    <!-- Room Type Input Field -->
+    <EditText
+        android:id="@+id/add_room_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room Number"
+        android:textColorHint="@android:color/darker_gray"
+        android:padding="12dp"
+        android:inputType="text"/>
+
+    <!-- Room Price Input Field -->
+    <EditText
+        android:id="@+id/add_room_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room Price"
+        android:textColorHint="@android:color/darker_gray"
+        android:padding="12dp"
+        android:inputType="numberDecimal"/>
+
+    <!-- Room Capacity Input Field -->
+    <EditText
+        android:id="@+id/add_room_capacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room Capacity"
+        android:textColorHint="@android:color/darker_gray"
+        android:padding="12dp"
+        android:inputType="number"/>
+
+
+    <!-- Button Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="Save"
+            android:backgroundTint="@color/main"
+            android:textColor="@android:color/white"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/backAddButton"
+            android:layout_weight="4"
+            android:backgroundTint="@color/secondary"
+            android:textColor="@android:color/black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Back"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

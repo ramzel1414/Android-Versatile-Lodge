@@ -41,6 +41,7 @@
             android:layout_marginBottom="8dp">
 
             <Button
+                android:id="@+id/addButton"
                 android:layout_width="174dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -48,7 +49,8 @@
                 android:padding="8dp"
                 android:text="Add a Room +"
                 android:textColor="@android:color/white"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:onClick="showAddRoomModal"/>
 
         </LinearLayout>
 
@@ -117,111 +119,32 @@
                 <Button
                     android:id="@+id/editButton"
                     android:layout_below="@id/roomInfo"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="4"
                     android:layout_alignParentBottom="true"
                     android:text="Edit"
-                    android:backgroundTint="#DCC69C"
-                    android:textColor="@android:color/black"/>
+                    android:backgroundTint="@color/main"
+                    android:textColor="@android:color/white"
+                    android:onClick="showEditRoomModal"/>
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
                 <Button
                     android:id="@+id/deleteButton"
                     android:layout_below="@id/roomInfo"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="4"
                     android:layout_alignParentBottom="true"
                     android:text="Delete"
-                    android:backgroundTint="#cacaca"
+                    android:backgroundTint="@color/secondary"
                     android:textColor="@android:color/black"/>
             </LinearLayout>
         </RelativeLayout>
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginVertical="16dp"
-            android:background="#eeeeee"
-            android:padding="16dp">
 
-            <ImageView
-                android:id="@+id/roomImage2"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:src="@drawable/room"
-                android:scaleType="fitXY"/>
-
-            <LinearLayout
-                android:textColor="@android:color/black"
-                android:id="@+id/roomInfo2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/roomImage2"
-                android:orientation="vertical"
-                android:gravity="center_horizontal"
-                android:layout_marginVertical="16dp">
-
-                <TextView
-                    android:textColor="@android:color/black"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Maramag"
-                    android:textSize="16sp"
-                    android:textStyle="bold"/>
-
-                <TextView
-                    android:textColor="@android:color/black"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Room 1"
-                    android:textSize="16sp"/>
-
-                <TextView
-                    android:textColor="@android:color/black"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Per Day: 2"
-                    android:textSize="16sp"/>
-
-                <TextView
-                    android:textColor="@android:color/black"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Max People: 1"
-                    android:textSize="16sp"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:textColor="@android:color/black"
-                android:id="@+id/roomInfoBtns2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/roomInfo2"
-                android:orientation="horizontal"
-                android:gravity="center_horizontal"  >
-                <Button
-                    android:id="@+id/editButton2"
-                    android:layout_below="@id/roomInfo"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_alignParentBottom="true"
-                    android:text="Edit"
-                    android:backgroundTint="#DCC69C"
-                    android:textColor="@android:color/black"/>
-
-                <Button
-                    android:id="@+id/deleteButton2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/roomInfo"
-                    android:layout_alignParentBottom="true"
-                    android:layout_weight="1"
-                    android:backgroundTint="#cacaca"
-                    android:text="Delete"
-                    android:textColor="@android:color/black" />
-            </LinearLayout>
-        </RelativeLayout>
 
     </LinearLayout>
 
