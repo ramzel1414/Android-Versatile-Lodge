@@ -3,4 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="main">#2B1103</color>
+    <color name="branch">#DCC69C</color>
+    <color name="selected_color">#FF0000</color>
+    <color name="transparent">#00000000</color>
 </resources>

@@ -1,0 +1,219 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColor="@android:color/black"
+    android:background="#dadada">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp">
+
+
+        <!-- Page Desc -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingVertical="8dp"
+            android:background="#dadada"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Overview"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_marginEnd="12dp"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#eeeeee"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:textColor="@android:color/black"
+                android:id="@+id/overviewCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginVertical="16dp">
+
+                <!-- Column 2: Room 1 -->
+                <TextView
+                    android:textColor="#70000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occupancy"
+                    android:textSize="16sp"/>
+                <!-- Column 1: Maramag -->
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Malaybalay:"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <!-- Column 3: Per Day: 2 -->
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    android:gravity="center_horizontal"
+                    android:textSize="66sp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#eeeeee"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:textColor="@android:color/black"
+                android:id="@+id/overviewCard2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginVertical="16dp">
+
+                <!-- Column 2: Room 1 -->
+                <TextView
+                    android:textColor="#70000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occupancy"
+                    android:textSize="16sp"/>
+                <!-- Column 1: Maramag -->
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Velencia:"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <!-- Column 3: Per Day: 2 -->
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    android:gravity="center_horizontal"
+                    android:textSize="66sp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#eeeeee"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:textColor="@android:color/black"
+                android:id="@+id/overviewCard3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginVertical="16dp">
+
+                <!-- Column 2: Room 1 -->
+                <TextView
+                    android:textColor="#70000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occupancy"
+                    android:textSize="16sp"/>
+                <!-- Column 1: Maramag -->
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maramag:"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <!-- Column 3: Per Day: 2 -->
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    android:gravity="center_horizontal"
+                    android:textSize="66sp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#eeeeee"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:textColor="@android:color/black"
+                android:id="@+id/overviewCard4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginVertical="16dp">
+
+                <!-- Column 2: Room 1 -->
+                <TextView
+                    android:textColor="#70000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occupancy"
+                    android:textSize="16sp"/>
+                <!-- Column 1: Maramag -->
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total:"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <!-- Column 3: Per Day: 2 -->
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    android:gravity="center_horizontal"
+                    android:textSize="66sp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

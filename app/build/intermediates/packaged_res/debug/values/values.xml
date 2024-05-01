@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="branch">#DCC69C</color>
     <color name="main">#2B1103</color>
+    <color name="selected_color">#FF0000</color>
+    <color name="transparent">#00000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Versatile-Lodge</string>
+    <string name="logout_icon_description">Logout</string>
     <style name="Base.Theme.VersatileLodge" parent="Theme.Material3.DayNight.NoActionBar">
         
         

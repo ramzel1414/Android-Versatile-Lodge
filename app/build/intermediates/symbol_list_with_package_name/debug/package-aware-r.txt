@@ -1361,6 +1361,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color branch
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -2100,6 +2101,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color selected_color
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -2108,6 +2110,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color transparent
 color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
@@ -2988,6 +2991,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable baseline_account_circle_24
 drawable baseline_admin_panel_settings_24
+drawable baseline_arrow_outward_24
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2996,6 +3000,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable charmee
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -3021,6 +3026,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable finral
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable home_icon
@@ -3039,6 +3045,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable list_icon
+drawable luck
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3060,6 +3067,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable menu_item_background
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3208,12 +3216,18 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id barrier
+id baseFrag
 id baseline
 id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id bookImage
+id bookImage2
+id bookInfo
+id bookInfo2
 id bottom
+id bottomNavBar
 id bounce
 id bounceBoth
 id bounceEnd
@@ -3264,6 +3278,8 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deleteButton
+id deleteButton2
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -3293,6 +3309,8 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editButton
+id editButton2
 id edit_query
 id elastic
 id email
@@ -3369,6 +3387,7 @@ id list_item
 id login
 id loginbtn
 id m3_side_sheet
+id main
 id marquee
 id masked
 id match_constraint
@@ -3467,6 +3486,10 @@ id open_search_view_toolbar_container
 id outline
 id outward
 id overshoot
+id overviewCard
+id overviewCard2
+id overviewCard3
+id overviewCard4
 id packed
 id parallax
 id parent
@@ -3483,6 +3506,9 @@ id pin
 id position
 id postLayout
 id pressed
+id profile
+id profileImage
+id profileInfo
 id progress_circular
 id progress_horizontal
 id radio
@@ -3494,6 +3520,12 @@ id right
 id rightToLeft
 id right_icon
 id right_side
+id roomImage
+id roomImage2
+id roomInfo
+id roomInfo2
+id roomInfoBtns
+id roomInfoBtns2
 id rounded
 id row_index_key
 id save_non_transition_alpha
@@ -3580,6 +3612,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView_lodgeName
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3763,6 +3797,10 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_fragment1
+layout fragment_fragment2
+layout fragment_fragment3
+layout fragment_fragment4
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3894,6 +3932,7 @@ string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string logout_icon_description
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular

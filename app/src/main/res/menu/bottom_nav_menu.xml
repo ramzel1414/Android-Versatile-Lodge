@@ -8,13 +8,17 @@
     <item
         android:id="@+id/sleep_btn"
         android:title="Rooms"
-        android:icon="@drawable/sleep_icon" />
+        android:icon="@drawable/sleep_icon"
+        android:titleTextColor="#000000"/>
     <item
         android:id="@+id/contact_btn"
         android:title="Transaction"
-        android:icon="@drawable/contact_icon" />
+        android:icon="@drawable/contact_icon"
+        android:titleTextColor="#000000"/>
     <item
         android:id="@+id/list_btn"
-        android:title="Reception"
-        android:icon="@drawable/list_icon" />
+        android:title="Profile"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:titleTextColor="#000000"/>
+
 </menu>
